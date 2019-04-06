@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BHARAT ONLINE VOTING</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Lobster|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Han+Sans|Lobster" rel="stylesheet">
+<style>
+	.topnav {
+	overflow: hidden;
+	background-color: #F5F1DB;
+	}
+
+	.topnav a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+
+	.topnav a:hover {
+	background-color: #D7C292;
+	color: black;
+	}
+
+	.topnav a.active {
+	background-color: #9A5830;
+	color: white;
+	}
+	.topnav img{
+		float:left;
+		width: 80px;
+		height: 80px;
+		background: #555;
+	}
+	.footer {
+		position: static;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #F5F1DB;
+		color: black;
+		text-align: center;
+	}
+	.hr{
+		color: #7E5835
+	}
+	.container-fluid{
+		height: 500px;
+
+	}
+	.h1{
+		 border-style: solid;
+		border-color: red green blue yellow;
+	}
+	.h2{
+		color: #181102
+		size : 30px;
+		align : center;
+		font-family : "Impact";
+	}
+	#faculty {
+		border-collapse: collapse;
+	}
+	#faculty td{
+	  border: 1px solid #ddd;
+	  padding: 4px;
+	}
+	#faculty th{
+		border : 2px solid #ddd;
+		padding : 4px;
+		background-color: #E6D2BF;
+
+	#faculty tr:nth-child(even){
+		background-color:#fff3e6;
+	}
+
+		
+</style>
+
+
+
+</head>
+
+<body ng-app = "header" ng-controller = "head" class="container-fluid">
+	<div class="topnav">
+		<br>
+		<img src="7.jpg" alt="logo" style="width:80px;height:80px;">
+		<a href="polling.html"><i class="fa fa-pie-chart"></i> Polling</a></li>
+		<a href="cand.html"><i class="fa fa-university"></i>Candidates</a></li>
+		<a href="vote.html"><i class="fa fa-fw fa-user"></i> Vote</a></li>
+	
+		<a class="active" href="home.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+		<br>
+	</div>
+	<div class="Lok" align="middle">
+	<font size=6><h1><b>Bharat Lok Sabha Elections 2019</b>
+				</h1></font>
+	</div>
+	<!--<div>
+	<div id="box" class="container-fluid" style="background-image: url(finger.jpg);padding-top: 0.5vw;padding-bottom: 0.5vw;">
+		<div class="row">
+			<div class="col-sm-2">
+				<img ng-src="{{image1}}" class="img-responsive">
+			</div>
+			<div class="col-sm-8">
+				<h1 class="text-center" style="font-family: Abril Fatface;">	{{head}}  </h1>
+			</div>
+			<div class="col-sm-2">
+				<h5 class="text-center"><b>HELPLINE NUMBER</b></h5>
+				<h5 class="text-center"><b>+132454323</b></h5>
+				<h5 class="text-center"><b>+234562345</b></h5>
+			</div> 	
+		</div>
+	</div>-->
+</nav>
+</div>
+<ng-view></ng-view>
+<!--<div class="container-fluid" style="background-image: url(10.jpg);margin-top: 1vw;">-->
+  <p style="margin-top: 3vw;color:black;">
+  The 2019 Indian general election is scheduled to be held in 7 phases from 11 April 2019 to 19 May 2019 to constitute the 17th Lok Sabha. 
+  The counting of votes will be conducted on 23 May 2019 and on the same day the results will be declared.</p>
+  <br>
+  <h3>Election schedule</h3>
+  <hr>
+  <p>The election is scheduled to be held in 7 phases. The date of counting is 23 May. In Bihar, Uttar Pradesh and West Bengal election will be held in 7 phases (maximum). The polling for Anantanag Lok Sabha constituency in the state of Jammu and Kashmir will be held in 3 phases, the first of its kind.</p>
+  
+  <table id="faculty" bgcolor=" #ffe6cc" align="center" style="width:80%;">
+	<tr>
+		<th>Phase</th>
+		<th>Date</th>
+		<th>Lok Sabha Constituencies</th>
+		<th>Number of states/UTs</th>
+		<th>States/UTs</th>
+	</tr>
+	<tr align="center">
+		<td>1</td>
+		<td>11 April</td>
+		<td>91</td>
+		<td>20</td>
+		<td>Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Jammu and Kashmir, Maharashtra,Mizoram, Manipur, Meghalaya, Nagaland, Odisha, Sikkim, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Lakshadweep</td>
+	</tr>
+	<tr align="center">
+		<td>2</td>
+		<td>18 April</td>
+		<td>97</td>
+		<td>13</td>
+		<td>Assam, Bihar, Chhattisgarh, Jammu and Kashmir, Karnataka, Maharashtra, Manipur, Odisha, Tamil Nadu, Tripura, Uttar Pradesh, West Bengal, Puducherry</td>
+	</tr>
+		<tr align="center">
+		<td>3</td>
+		<td>23 April</td>
+		<td>115</td>
+		<td>14</td>
+		<td>Assam, Bihar, Chhattisgarh, Gujarat, Goa, Jammu and Kashmir, Karnataka, Kerala, Maharashtra, Odisha, Uttar Pradesh, West Bengal, Dadra and Nagar Haveli, Daman and Diu</td>
+	</tr>
+	<tr align="center">
+		<td>4</td>
+		<td>29 April</td>
+		<td>71</td>
+		<td>9</td>
+		<td>Bihar, Jammu and Kashmir, Jharkhand, Madhya Pradesh, Maharashtra, Odisha, Rajasthan, Uttar Pradesh, West Bengal</td>
+	</tr>
+	<tr align="center">
+		<td>5</td>
+		<td>6 May	</td>
+		<td>51</td>
+		<td>7</td>
+		<td>Bihar, Jammu and Kashmir, Jharkhand, Madhya Pradesh, Rajasthan, Uttar Pradesh, West Bengal</td>
+	</tr>
+	<tr align="center">
+		<td>6</td>
+		<td>12 May</td>
+		<td>59</td>
+		<td>7</td>
+		<td>Bihar, Haryana, Jharkhand, Madhya Pradesh, Uttar Pradesh, West Bengal, New Delhi</td>
+	</tr>
+	<tr align="center">
+		<td>7</td>
+		<td>19 May</td>
+		<td>59</td>
+		<td>8</td>
+		<td>Bihar, Himachal, Jharkhand, Madhya Pradesh, Punjab, West Bengal, Chandigarh, Uttar Pradesh</td>
+	</tr>
+	
+</table>
+
+ <!--   <div class="row">
+      <div class="col-sm-3">
+      <img src="">
+      </div>
+      <div class="col-sm-3">
+        
+      </div>
+      <div class="col-sm-1">
+        
+      </div>-->
+   <!-- <div class="col-sm-5">
+          <h5 style="text-align: right;color: white;">ELECTION COMISSION OF INDIA</h5>
+			<h5 style="text-align: right;color: white;">2/211, nawabganj, Lodhi Road</h5>
+			<h5 style="text-align: right;color: white;">New Delhi - 110 003 India</h5>
+			<h5 style="text-align: right;color: white;">Email: nehavchaudhry@gmail.com</h5>
+	</div>-->
+    <!--</div>-->
+ <br>
+ <br>
+ <div class="footer">
+  <p>©2019 BY ELECTION COMMISSION OF INDIA </p>
+  <p>CREATED BY NEHA CHAUDHARY</p>
+</div>
+
+<!--</div>-->
+</body>
+</html>

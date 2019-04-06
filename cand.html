@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Lobster" rel="stylesheet">
+	<title></title>
+</head>
+<style>
+	.topnav {
+	overflow: hidden;
+	background-color: #F5F1DB;
+	}
+
+	.topnav a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+
+	.topnav a:hover {
+	background-color: #D7C292;
+	color: black;
+	}
+
+	.topnav a.active {
+	background-color: #9A5830;
+	color: white;
+	}
+	.topnav img{
+		float:left;
+		width: 80px;
+		height: 80px;
+		background: #555;
+	}
+	.footer {
+		position: static;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #F5F1DB;
+		color: black;
+		text-align: center;
+	}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+</style>
+<body>
+	<div class="topnav">
+		<br>
+		<img src="7.jpg" alt="logo" style="width:80px;height:80px;">
+		<a href="polling.html"><i class="fa fa-pie-chart"></i> Polling</a></li>
+		<a class="active" href="cand.html"><i class="fa fa-university"></i>Candidates</a></li>
+		<a href="vote.html"><i class="fa fa-fw fa-user"></i> Vote</a></li>
+		<a href="home.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+		<br>
+	</div>
+	<div class="container-fluid">
+   <h1 class="text-center" style="font-family: 'Black Han Sans';"> Parties in Election</h1> 
+   <hr>
+</div>
+  <div class="container">
+   <div class="row">
+   	<div class="col-sm-4">
+   		<div class="card">
+  <img src="3.jpg" alt="Avatar" class="img-responsive" >
+  <div class="container">
+    <h4><b> Bharatiya Janata Party(BJP)</b></h4> 
+    <button type="button" class="btn btn-danger  btn-lg" onclick="window.open('https://en.wikipedia.org/wiki/Bharatiya_Janata_Party')">View Detail</button>
+  </div>
+</div>
+   	</div>
+   		<div class="col-sm-4">
+   		<div class="card">
+  <img src="4.jpg" alt="Avatar" class="img-responsive" >
+  <div class="container">
+    <h4><b>Indian National Congress(INC)</b></h4> 
+    <button type="button" class="btn btn-danger btn-lg " onclick="window.open('https://en.wikipedia.org/wiki/Indian_National_Congress')">View Detail</button>
+  </div>
+</div>
+   	</div>
+   		<div class="col-sm-4">
+   		<div class="card">
+  <img src="5.jpg" alt="Avatar" class="img-responsive center-block">
+  <div class="container">
+    <h4><b>Aam Aadmi Party(AAP)</b></h4> 
+   <button type="button" class="btn btn-danger btn-lg" onclick="window.open('https://en.wikipedia.org/wiki/Aam_Aadmi_Party')">View Detail</button>
+  </div>
+</div>
+   	</div>
+   </div>
+  </div>
+  <br>
+ <br>
+ <div class="footer">
+  <p>©2019 BY ELECTION COMMISSION OF INDIA </p>
+  <p>CREATED BY NEHA CHAUDHARY</p>
+</div>
+
+</body>
+</html>
